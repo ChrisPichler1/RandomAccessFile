@@ -1,0 +1,317 @@
+Programmer:        type your name here!!!!!!
+Course:            COSC 311,  F'23
+Project:           1
+Due date:          9-19-23
+
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 1
+Enter an input file name: students.txt
+Enter an output file name: dbs
+Random access file is built successfully!
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 2
+Enter the random access file name: dbs
+Tom                 Wiely               1234      3.76      
+Mike                Johnson             1111      2.78      
+Alex                Shafer              3333      4.0       
+Nancy               Koffman             4444      3.56      
+Karen               Thomson             2222      3.2       
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):n
+Sara                Dorthy              9999      1.79      
+Adam                Nelson              7777      2.7       
+Kate                Peterson            6666      3.5       
+Carla               Howard              3325      3.9       
+Ben                 Jones               5555      2.42      
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):a
+Dan                 Fuhr                1156      3.97      
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 3
+Enter a record number: 1
+Tom                 Wiely               1234      3.76      
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 3
+Enter a record number: 12
+12 is an invalid record number
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 3
+Enter a record number: 11
+Dan                 Fuhr                1156      3.97      
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 4
+Enter a record number: 1
+Tom                 Wiely               1234      3.76 
+     
+1- Change the first name: 
+2- Change the last name: 
+3- Change ID: 
+4- Change GPA: 
+5- Done: 
+Enter your choice: 4
+Enter GPA: 2.0
+
+1- Change the first name: 
+2- Change the last name: 
+3- Change ID: 
+4- Change GPA: 
+5- Done: 
+Enter your choice: 5
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 3
+Enter a record number: 1
+Tom                 Wiely               1234      2.0       
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 5
+Enter first name: Eddy
+Enter last name: Lopez
+Enter ID: 1188
+Enter GPA: 3.9
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 2
+Enter the random access file name: dbs
+Tom                 Wiely               1234      2.0       
+Mike                Johnson             1111      2.78      
+Alex                Shafer              3333      4.0       
+Nancy               Koffman             4444      3.56      
+Karen               Thomson             2222      3.2       
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):a
+Sara                Dorthy              9999      1.79      
+Adam                Nelson              7777      2.7       
+Kate                Peterson            6666      3.5       
+Carla               Howard              3325      3.9       
+Ben                 Jones               5555      2.42      
+Dan                 Fuhr                1156      3.97      
+Eddy                Lopez               1188      3.9       
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: r
+Non-numeric input
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 3
+Enter a record number: 12
+Eddy                Lopez               1188      3.9       
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 6
+Enter a record number: 1
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 2
+Enter the random access file name: dbs
+Mike                Johnson             1111      2.78      
+Alex                Shafer              3333      4.0       
+Nancy               Koffman             4444      3.56      
+Karen               Thomson             2222      3.2       
+Sara                Dorthy              9999      1.79      
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):m
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 3
+Enter a record number: 1
+This record has been deleted
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 4
+Enter a record number: 1
+Can't modify a deleted record
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 2
+Enter the random access file name: dbm
+dbm is not found
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 2
+Enter the random access file name: dbs
+Mike                Johnson             1111      2.78      
+Alex                Shafer              3333      4.0       
+Nancy               Koffman             4444      3.56      
+Karen               Thomson             2222      3.2       
+Sara                Dorthy              9999      1.79      
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):A
+Adam                Nelson              7777      2.7       
+Kate                Peterson            6666      3.5       
+Carla               Howard              3325      3.9       
+Ben                 Jones               5555      2.42      
+Dan                 Fuhr                1156      3.97      
+Eddy                Lopez               1188      3.9       
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 7
+Bye!
