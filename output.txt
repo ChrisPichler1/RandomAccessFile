@@ -1,0 +1,317 @@
+Programmer:    Chris Pichler
+Course:        COSC 311, F'23
+Project:       1
+Due date:      9-19-23
+
+
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 1
+Enter an input file name: students.txt
+Enter an output file name: dbs
+Random access file is built successfully!
+
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 2
+Enter the random access file name: dbs
+Andrea              Barber              1234      2.12      
+Candace             Cameron             2345      2.62      
+Dave                Coulier             3456      3.54      
+Lori                Loughlin            4567      1.67      
+Barack              Obama               5678      3.98      
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):n
+Mary-Kate           Olsen               6789      2.11      
+Ashley              Olson               7890      2.09      
+Chris               Pichler             6792      4.0       
+Bob                 Saget               8901      3.77      
+John                Stamos              9012      3.22      
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):a
+Jodie               Sweetin             1123      3.1       
+
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 3
+Enter a record number: 1
+Andrea              Barber              1234      2.12      
+
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 3
+Enter a record number: 12
+12 is an invalid record number
+
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 3
+Enter a record number: 11
+Jodie               Sweetin             1123      3.1       
+
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 4
+Enter a record number: 1
+Andrea              Barber              1234      2.12      
+
+1- Change the first name: 
+2- Change the last name: 
+3- Change ID: 
+4- Change GPA: 
+5- Done: 
+Enter your choice: 4
+Enter GPA: 2.0
+
+1- Change the first name: 
+2- Change the last name: 
+3- Change ID: 
+4- Change GPA: 
+5- Done: 
+Enter your choice: 5
+
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 3
+Enter a record number: 1
+Andrea              Barber              1234      2.0       
+
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 5
+Enter first name: Eddy
+Enter last name: Lopez
+Enter ID: 1188
+Enter GPA: 3.9
+
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 2
+Enter the random access file name: dbs
+Andrea              Barber              1234      2.0       
+Candace             Cameron             2345      2.62      
+Dave                Coulier             3456      3.54      
+Lori                Loughlin            4567      1.67      
+Barack              Obama               5678      3.98      
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):a
+Mary-Kate           Olsen               6789      2.11      
+Ashley              Olson               7890      2.09      
+Chris               Pichler             6792      4.0       
+Bob                 Saget               8901      3.77      
+John                Stamos              9012      3.22      
+Jodie               Sweetin             1123      3.1       
+Eddy                Lopez               1188      3.9       
+
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: r
+Non-numeric input
+
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 3
+Enter a record number: 12
+Eddy                Lopez               1188      3.9       
+
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 6
+Enter a record number: 1
+
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 2
+Enter the random access file name: dbs
+Candace             Cameron             2345      2.62      
+Dave                Coulier             3456      3.54      
+Lori                Loughlin            4567      1.67      
+Barack              Obama               5678      3.98      
+Mary-Kate           Olsen               6789      2.11      
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):m
+
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 3
+Enter a record number: 1
+This record has been deleted
+
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 4
+Enter a record number: 1
+Can't modify a deleted record
+
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 2
+Enter the random access file name: dbm
+dbm is not found
+
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 2
+Enter the random access file name: dbs
+Candace             Cameron             2345      2.62      
+Dave                Coulier             3456      3.54      
+Lori                Loughlin            4567      1.67      
+Barack              Obama               5678      3.98      
+Mary-Kate           Olsen               6789      2.11      
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):A
+Ashley              Olson               7890      2.09      
+Chris               Pichler             6792      4.0       
+Bob                 Saget               8901      3.77      
+John                Stamos              9012      3.22      
+Jodie               Sweetin             1123      3.1       
+Eddy                Lopez               1188      3.9       
+
+   Menu
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Retrieve a record
+4: Modify a record
+5: Add a record
+6: Delete a record
+7: Exit
+
+Enter your choice: 7
+Bye!
